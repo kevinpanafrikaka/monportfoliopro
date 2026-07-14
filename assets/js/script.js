@@ -281,7 +281,7 @@ const projectsData = {
     kharan: {
         title: "KHARAN — EdTech propulsée par l'IA",
         category: "🎓 ÉducTech / 🤖 IA / 💻 Développement",
-        image: "assets/images/image_haran.png",
+        image: "images/image_haran.png",
         tags: ["Node.js", "PostgreSQL", "JavaScript", "Claude API", "PWA"],
         context: "KHARAN est né du constat que le soutien scolaire classique en Guinée est souvent inaccessible financièrement et non adapté au rythme individuel de chaque élève.",
         objectives: "Concevoir une plateforme web intelligente capable d'agir comme un tuteur privé disponible 24h/24. L'application évalue le niveau de l'étudiant à travers des exercices interactifs, détecte ses lacunes spécifiques grâce à un modèle d'IA et génère des leçons sur-mesure adaptées à sa vitesse de compréhension.",

@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Bangoura Kevin Kandet Bomboh - Étudiant en Électronique, Développeur Web Full Stack et Porteur du projet KHARAN. Candidature pour un stage chez Efficience Globale.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/image_profile.png">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Bangoura Kevin Kandet Bomboh | Portfolio">
+    <meta property="og:description" content="Étudiant en Électronique, Développeur Web Full Stack et Porteur du projet KHARAN. Candidature pour un stage chez Efficience Globale.">
+    <meta property="og:image" content="images/image_profile.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Bangoura Kevin Kandet Bomboh | Portfolio">
+    <meta property="twitter:description" content="Étudiant en Électronique, Développeur Web Full Stack et Porteur du projet KHARAN. Candidature pour un stage chez Efficience Globale.">
+    <meta property="twitter:image" content="images/image_profile.png">
+
+    <title>Bangoura Kevin Kandet Bomboh | Portfolio</title>
+    <!-- CSS Custom -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- FontAwesome pour les icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- --- BARRE DE NAVIGATION --- -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#home" class="logo">Portfolio Professionnel</a>
+            
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active">Accueil</a></li>
+                <li><a href="#about" class="nav-link">À propos</a></li>
+                <li><a href="#projects" class="nav-link">Projets</a></li>
+                <li><a href="#candidature" class="nav-link">Candidature</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Changer de thème">
+                    <i class="fa-solid fa-moon"></i>
+                    <i class="fa-solid fa-sun"></i>
+                </button>
+                <button class="hamburger" id="hamburger" aria-label="Ouvrir le menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- --- ACCUEIL (HERO SECTION) --- -->
+    <section id="home">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content reveal">
+                    <span class="hero-tag">Disponible pour un stage en IA & Developpement Web</span>
+                    <h1 class="hero-title">Kevin Kandet <br><span>Bomboh Bangoura</span></h1>
+                    <p class="hero-subtitle">
+                        Étudiant en Électronique · Développeur Web Full Stack Junior · Porteur du projet KHARAN
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary"><i class="fa-solid fa-briefcase"></i> Voir mes projets</a>
+                        <a href="pdf/Mon_CV.pdf" download="CV_Bangoura_Kevin.pdf" class="btn btn-secondary"><i class="fa-solid fa-download"></i> Télécharger CV</a>
+                    </div>
+                </div>
+                <div class="hero-visual reveal">
+                    <div class="hero-image-wrapper">
+                        <!-- Utilisation de l'image de profil disponible -->
+                        <img src="images/image_profile.png" alt="Photo de Bangoura Kevin Kandet Bomboh" class="hero-image">
+                    </div>
+                </div>
+
+                <!-- Quick Facts (4 Cartes) -->
+                <div class="quick-facts-grid reveal" style="grid-column: 1 / -1;">
+                    <div class="fact-card">
+                        <i class="fa-solid fa-graduation-cap fact-icon"></i>
+                        <h3 class="fact-title">Licence 3 Électronique</h3>
+                        <p class="fact-desc">Université Gamal Abdel Nasser de Conakry (UGANC)</p>
+                    </div>
+                    <div class="fact-card">
+                        <i class="fa-solid fa-code fact-icon"></i>
+                        <h3 class="fact-title">Développeur Web Full Stack Junior</h3>
+                        <p class="fact-desc">Formation certifiante de 3 mois à Orange Digital Center (ODC)</p>
+                    </div>
+                    <div class="fact-card">
+                        <i class="fa-solid fa-lightbulb fact-icon"></i>
+                        <h3 class="fact-title">Projet KHARAN</h3>
+                        <p class="fact-desc">Conception d'une Application web afin de facilité l'accès à une éducation de qualité en Afrique grace aux NTIC.</p>
+                    </div>
+                    <div class="fact-card">
+                        <i class="fa-solid fa-microchip fact-icon"></i>
+                        <h3 class="fact-title">Stage IA & Développement Web</h3>
+                        <p class="fact-desc">Candidat pour un stage de 3 mois chez Efficience Globale</p>
+                    </div>
+                </div>
+
+                <!-- Appel à l'action / Stage -->
+                <div class="hero-notice reveal">
+                    <div class="notice-content">
+                        <h4>Candidature de stage de 3 mois</h4>
+                        <p>Je sollicite un stage de 3 mois à partir de Juillet 2026 au sein du cabinet Efficience Globale <strong>Efficience Globale</strong> sous la direction de Mr Oumar Camara.</p>
+                    </div>
+                    <a href="#candidature" class="btn btn-primary"><i class="fa-solid fa-file-signature"></i> Voir ma candidature</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- A PROPOS (ABOUT SECTION) --- -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title reveal">À propos de <span>moi</span></h2>
+            
+            <div class="about-grid">
+                <!-- Texte et parcours -->
+                <div class="about-text reveal">
+                    <p class="about-intro">
+                        Passionné de Nouvelles Technologies de l'Information et de la Communication (NTIC) et de l'Intelligence Artificielle Génerative.
+                    </p>
+                    <p>
+                        Actuellement étudiant en Licence 3 Électronique à l'UGANC et certifié Développeur Full Stack Junior par Orange Digital Center, j'adore concevoir des systèmes numeriques utiles. Mon projet phare, <strong>KHARAN</strong>, en est la preuve : une plateforme éducative qui utilise le numérique pour révolutionner l'apprentissage des élèves.
+                    </p>
+                    <p>
+                        Mon objectif est de mettre mon profil au service du cabinet Efficience Globale pour participer au déploiement de solutions basées sur l'IA et l'innovation technologique.
+                    </p>
+                    
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <span class="highlight-val">L3 Electronique</span>
+                            <span class="highlight-lbl">Université Gamal Abdel Nasser de Conakry (UGANC)</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-val">Devoloppeur Web Full Stack Junior</span>
+                            <span class="highlight-lbl">Orange Digital Center (ODC)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Compétences (Skills) -->
+                <div class="skills-column reveal">
+                    <div>
+                        <h3 class="skill-group-title"><i class="fa-solid fa-code"></i> Développement Web</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info"><span>HTML</span><span>40%</span></div>
+                                <div class="skill-bar"><div class="skill-progress" data-level="40%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span>CSS</span><span>30%</span></div>
+                                <div class="skill-bar"><div class="skill-progress" data-level="30%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span>JavaScript</span><span>20%</span></div>
+                                <div class="skill-bar"><div class="skill-progress" data-level="20%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span>Java</span><span>10%</span></div>
+                                <div class="skill-bar"><div class="skill-progress" data-level="10%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span>Python</span><span>5%</span></div>
+                                <div class="skill-bar"><div class="skill-progress" data-level="5%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span>Node.js / Express</span><span>20%</span></div> 
+                                <div class="skill-bar"><div class="skill-progress" data-level="10%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span>MariaDB / PostegreSQL</span><span>50%</span></div>
+                                <div class="skill-bar"><div class="skill-progress" data-level="50%"></div></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="margin-top: 2rem;">
+                        <h3 class="skill-group-title"><i class="fa-solid fa-robot"></i> Intelligence Artificielle Génerative</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info"><span>Prompt & Context Engineering</span><span>60%</span></div>
+                                <div class="skill-bar"><div class="skill-progress" data-level="60%"></div></div> 
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span>Antropic [Claude - Claude Code - Claude Design]</span><span>35%</span></div>
+                                <div class="skill-bar"><div class="skill-progress" data-level="35%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span>OpenAI [ChatGPT - Codex]</span><span>55%</span></div>
+                                <div class="skill-bar"><div class="skill-progress" data-level="55%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span>Google [Gemini - Notebook LM - Google AI Studio]</span><span>55%</span></div>
+                                <div class="skill-bar"><div class="skill-progress" data-level="55%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span>Perplexity [Perplexity]</span><span>30%</span></div>
+                                <div class="skill-bar"><div class="skill-progress" data-level="30%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span>Intégration d'API d'IA</span><span>10%</span></div>
+                                <div class="skill-bar"><div class="skill-progress" data-level="10%"></div></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="margin-top: 2rem;">
+                        <h3 class="skill-group-title"><i class="fa-solid fa-microchip"></i>Électronique</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info"><span>Programmation [Arduno - API Industriels]</span><span>20%</span></div>
+                                <div class="skill-bar"><div class="skill-progress" data-level="20%"></div></div> 
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span>Conception de Circuits</span><span>35%</span></div>
+                                <div class="skill-bar"><div class="skill-progress" data-level="35%"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Timeline Parcours -->
+                <div class="timeline-section reveal">
+                    <h3 class="timeline-title"><i class="fa-solid fa-graduation-cap"></i> Mon Parcours</h3>
+                    <div class="timeline">
+                        <!-- Item 1 -->
+                        <div class="timeline-item">
+                            <div class="timeline-badge"></div>
+                            <div class="timeline-card">
+                                <span class="timeline-date">Octobre 2023 - Juin 2026</span>
+                                <h3>Licence en Électronique</h3>
+                                <p class="timeline-org">Université Gamal Abdel Nasser de Conakry (UGANC)</p>
+                                <p>Formation théorique et pratique approfondie sur les circuits analogiques et numériques, les télécoms et la programmation.</p>
+                            </div>
+                        </div>
+                        <!-- Item 2 -->
+                        <div class="timeline-item">
+                            <div class="timeline-badge"></div>
+                            <div class="timeline-card">
+                                <span class="timeline-date">Avril 2026 - Juin 2026</span>
+                                <h3>Formation en Developpement Web Full Stack</h3>
+                                <p class="timeline-org">Orange Digital Center Guinée</p>
+                                <p>Cursus sur la comprehension des reséaux(LAN et WLAN), des requetes(HTTPS, 404, 500) et du développement web intensif axé sur le HTML5, le CSS3, le JavaScript moderne, le Java, React, les bases de données SQL et le développement backend avec Node.js.</p>
+                            </div>
+                        </div>
+                        <!-- Item 3 -->
+                        <div class="timeline-item">
+                            <div class="timeline-badge"></div>
+                            <div class="timeline-card">
+                                <span class="timeline-date">En cours</span>
+                                <h3>KHARAN</h3>
+                                <p class="timeline-org">Application Web</p>
+                                <p>Création d'une application web pour optimiser l'apprentissage autonome des élèves, le suivi des parents, la gestions des cours par des profs et le tout sous la direction des écoles.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Soft Skills & Langues -->
+                <div class="additional-skills-grid reveal">
+                    <div class="languages-container">
+                        <h3 class="skill-group-title"><i class="fa-solid fa-language"></i> Soft Skills</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info"><span>Autonomie - Rigueur</span><span>60%</span></div>
+                                <div class="skill-bar"><div class="skill-progress" data-level="60%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span>Adaptabilité - Ponctualité</span><span>60%</span></div>
+                                <div class="skill-bar"><div class="skill-progress" data-level="60%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span>Esprit d'équipe - Esprit d'Innovation</span><span>60%</span></div>
+                                <div class="skill-bar"><div class="skill-progress" data-level="60%"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="languages-container">
+                        <h3 class="skill-group-title"><i class="fa-solid fa-language"></i> Langues</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info"><span>Français</span><span>90%</span></div>
+                                <div class="skill-bar"><div class="skill-progress" data-level="90%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span>Soussou</span><span>80%</span></div>
+                                <div class="skill-bar"><div class="skill-progress" data-level="80%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info"><span>Anglais</span><span>30%</span></div>
+                                <div class="skill-bar"><div class="skill-progress" data-level="30%"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- PROJETS (PROJECTS SECTION) --- -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title reveal">Mes <span>Projets</span> Réalisés</h2>
+            
+            <!-- Barre de filtre -->
+            <div class="projects-filter-bar reveal">
+                <button class="filter-btn active" data-filter="all">Tous les projets</button>
+                <button class="filter-btn" data-filter="edtech">🎓 ÉducTech</button>
+                <button class="filter-btn" data-filter="dev">💻 Outils Quotidiens</button>
+            </div>
+
+            <!-- Grille de cartes de projets -->
+            <div class="projects-grid reveal">
+                <!-- Projet 1 : KHARAN -->
+                <div class="project-card" data-category="edtech">
+                    <div class="project-thumbnail">
+                        <!-- Utilisation de l'image de haran présente dans le répertoire -->
+                        <img src="images/image_haran.png" alt="Projet KHARAN" class="project-image">
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">🎓 ÉducTech</span>
+                        <h3>KHARAN</h3>
+                        <p class="project-desc">Application web innovante de soutien scolaire personnalisée afin de permettre à chaque élèves d'apprendre à son rythme et d'assimiler des compétences qui lui semble compliquées.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">#EdTech</span>
+                            <span class="project-tag">#IA</span>
+                            <span class="project-tag">#Node.js</span>
+                            <span class="project-tag">#PWA</span>
+                        </div>
+                        <div class="project-actions">
+                            <button class="btn btn-primary" onclick="openProjectModal('kharan')"><i class="fa-solid fa-circle-info"></i> Détails</button>
+                            <a href="#" class="btn btn-outline"><i class="fa-brands fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projet 2 : Le Grand Défi du CEE -->
+                <div class="project-card" data-category="edtech">
+                    <div class="project-thumbnail">
+                        <div style="width:100%;height:100%;background:linear-gradient(45deg, #1a3a6b, #C9930A);display:flex;align-items:center;justify-content:center;color:#fff;font-size:3rem;"><i class="fa-solid fa-gamepad"></i></div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">🎓 ÉducTech</span>
+                        <h3>Quizz CEE</h3>
+                        <p class="project-desc">Application web interactive sous forme de quiz éducatif pour aider les élèves de primaire à réviser l'examen du Certificat d'Études Élémentaires.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">#JavaScript</span>
+                            <span class="project-tag">#CSS3</span>
+                            <span class="project-tag">#Quiz</span>
+                        </div>
+                        <div class="project-actions">
+                            <button class="btn btn-primary" onclick="openProjectModal('cee')"><i class="fa-solid fa-circle-info"></i> Détails</button>
+                            <a href="#" class="btn btn-outline"><i class="fa-brands fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projet 3 : Gestionnaire de budget Excel -->
+                <div class="project-card" data-category="dev">
+                    <div class="project-thumbnail">
+                        <div style="width:100%;height:100%;background:linear-gradient(45deg, #10b981, #047857);display:flex;align-items:center;justify-content:center;color:#fff;font-size:3rem;"><i class="fa-solid fa-file-excel"></i></div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Outils Quotidiens</span>
+                        <h3>Gestionnaire de Budget</h3>
+                        <p class="project-desc">Tableau de bord Excel automatisé avec macros VBA pour le suivi en temps réel des flux de trésorerie personnels et des objectifs d'épargne.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">#VBA</span>
+                            <span class="project-tag">#Excel</span>
+                            <span class="project-tag">#Dashboard</span>
+                        </div>
+                        <div class="project-actions">
+                            <button class="btn btn-primary" onclick="openProjectModal('budget')"><i class="fa-solid fa-circle-info"></i> Détails</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- CANDIDATURE (CV & LETTRE SECTION) --- -->
+    <section id="candidature">
+        <div class="container">
+            <h2 class="section-title reveal">Ma <span>Candidature</span></h2>
+
+            <div class="candidature-container reveal">
+                <!-- Onglets -->
+                <div class="candidature-tabs">
+                    <button class="tab-btn active" onclick="switchTab(event, 'tab-cv')"><i class="fa-solid fa-file-pdf"></i> Curriculum Vitae</button>
+                    <button class="tab-btn" onclick="switchTab(event, 'tab-lettre')"><i class="fa-solid fa-envelope-open-text"></i> Lettre de Motivation</button>
+                </div>
+
+                <!-- Contenu CV -->
+                <div id="tab-cv" class="tab-content active">
+                    <div class="doc-preview-wrapper">
+                        <div class="doc-mockup">
+                            <div class="doc-mockup-frame">
+                                <div style="display:flex;gap:1rem;align-items:center;margin-bottom:1.5rem;">
+                                    <div style="width:50px;height:50px;border-radius:50%;background-color:#e2e8f0;overflow:hidden;"><img src="assets/images/image_profile.png" alt="Miniature" style="width:100%;height:100%;object-fit:cover;"></div>
+                                    <div>
+                                        <div class="mockup-line primary" style="width:120px;"></div>
+                                        <div class="mockup-line" style="width:80px;margin-top:0.4rem;"></div>
+                                    </div>
+                                </div>
+                                <div class="mockup-line accent" style="width:100%;margin-bottom:1rem;"></div>
+                                <div style="display:flex;flex-direction:column;gap:0.6rem;">
+                                    <div class="mockup-line lg"></div>
+                                    <div class="mockup-line md"></div>
+                                    <div class="mockup-line lg"></div>
+                                    <div class="mockup-line sm"></div>
+                                </div>
+                                <div class="mockup-line primary" style="width:40%;margin-top:1.5rem;margin-bottom:0.8rem;"></div>
+                                <div style="display:flex;flex-direction:column;gap:0.6rem;">
+                                    <div class="mockup-line lg"></div>
+                                    <div class="mockup-line md"></div>
+                                </div>
+                            </div>
+                            <div class="doc-mockup-overlay">
+                                <button class="btn" onclick="openPdfModal('pdf/Mon_CV.pdf')"><i class="fa-solid fa-eye"></i> Aperçu Plein Écran</button>
+                            </div>
+                        </div>
+                        <div class="doc-info">
+                            <h3>Curriculum Vitae</h3>
+                            <p>Découvrez en détail ma formation académique à l'UGANC, mes certifications en développement d'applications, et l'historique de mes réalisations techniques.</p>
+                            <div class="doc-buttons">
+                                <button class="btn btn-primary" onclick="openPdfModal('pdf/Mon_CV.pdf')"><i class="fa-solid fa-eye"></i> Lire en ligne</button>
+                                <a href="pdf/Mon_CV.pdf" download="CV_Bangoura_Kevin.pdf" class="btn btn-outline"><i class="fa-solid fa-download"></i> Télécharger PDF</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contenu Lettre -->
+                <div id="tab-lettre" class="tab-content">
+                    <div class="doc-preview-wrapper">
+                        <div class="doc-mockup">
+                            <div class="doc-mockup-frame">
+                                <div class="letter-mockup-header">
+                                    <div style="width:50px;height:50px;border-radius:50%;background-color:#e2e8f0;overflow:hidden;"><img src="images/image_profile.png" alt="Miniature" style="width:100%;height:100%;object-fit:cover;"></div>
+                                    <div class="letter-mockup-sender">
+                                        <div class="mockup-line primary"></div>
+                                        <div class="mockup-line"></div>
+                                        <div class="mockup-line"></div>
+                                    </div>
+                                    <div class="letter-mockup-recipient">
+                                        <div class="mockup-line accent"></div>
+                                        <div class="mockup-line"></div>
+                                        <div class="mockup-line"></div>
+                                    </div>
+                                </div>
+                                <div class="letter-mockup-body">
+                                    <div class="mockup-line lg"></div>
+                                    <div class="mockup-line md"></div>
+                                    <div class="mockup-line lg"></div>
+                                    <div class="mockup-line lg"></div>
+                                    <div class="mockup-line md"></div>
+                                </div>
+                                <div class="letter-mockup-footer">
+                                    <div class="mockup-line primary"></div>
+                                    <div class="mockup-line"></div>
+                                </div>
+                            </div>
+                            <div class="doc-mockup-overlay">
+                                <button class="btn" onclick="openPdfModal('pdf/Ma_Lettre_Motivation.pdf')"><i class="fa-solid fa-eye"></i> Aperçu Plein Écran</button>
+                            </div>
+                        </div>
+                        <div class="doc-info">
+                            <h3>Lettre de Motivation</h3>
+                            <p>Adressée à l'attention de Mr Oumar Camara, DG d'Efficience Globale. Elle détaille ma motivation à intégrer votre équipe en tant que stagiaire IA et de contribuer concrètement à vos projets.</p>
+                            <div class="doc-buttons">
+                                <button class="btn btn-primary" onclick="openPdfModal('pdf/Ma_Lettre_Motivation.pdf')"><i class="fa-solid fa-eye"></i> Lire en ligne</button>
+                                <a href="pdf/Ma_Lettre_Motivation.pdf" download="Lettre_Motivation_Bangoura_Kevin.pdf" class="btn btn-outline"><i class="fa-solid fa-download"></i> Télécharger PDF</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- CONTACT SECTION --- -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title reveal">Me <span>Contacter</span></h2>
+            
+            <div class="contact-grid">
+                <!-- Infos et Réseaux -->
+                <div class="contact-info reveal">
+                    <div class="contact-intro">
+                        <h3>Discutons de mon profil !</h3>
+                        <p>Disponible immédiatement pour un stage d'apprentissage de 3 mois au sein de vos équipes.</p>
+                    </div>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                            <div class="contact-text">
+                                <h4>Téléphone</h4>
+                                <p><a href="tel:+224611390765">+224 611 39 07 65</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <p><a href="mailto:kevinkandet05@gmail.com">kevinkandet05@gmail.com</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon" style="background: linear-gradient(135deg, #25D366, #128C7E);"><i class="fa-brands fa-whatsapp"></i></div>
+                            <div class="contact-text">
+                                <h4>WhatsApp</h4>
+                                <p><a href="https://wa.me/224611390765?text=Bonjour%20Kevin%2C%20j%27ai%20visit%C3%A9%20votre%20portfolio%20et%20je%20souhaite%20vous%20contacter." target="_blank" rel="noopener noreferrer">+224 611 39 07 65</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <div class="contact-text">
+                                <h4>Localisation</h4>
+                                <p>Sonfonia West Union, Conakry, Guinée</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h4 style="margin-bottom:0.75rem;font-weight:600;">Suivez mon actualité</h4>
+                        <div class="social-links">
+                            <a href="#" class="social-btn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="#" class="social-btn" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://wa.me/224611390765?text=Bonjour%20Kevin%2C%20j%27ai%20visit%C3%A9%20votre%20portfolio%20et%20je%20souhaite%20vous%20contacter." class="social-btn" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer" style="background: linear-gradient(135deg, #25D366, #128C7E);"><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href="#" class="social-btn" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="#" class="social-btn" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Formulaire -->
+                <div class="contact-form reveal">
+                    <form id="portfolio-contact-form">
+                        <div class="form-group">
+                            <label for="form-name" class="form-label">Nom Complet</label>
+                            <input type="text" id="form-name" class="form-input" placeholder="Votre nom ou nom de l'entreprise" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="form-email" class="form-label">Adresse Email</label>
+                            <input type="email" id="form-email" class="form-input" placeholder="nom@exemple.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="form-subject" class="form-label">Objet</label>
+                            <input type="text" id="form-subject" class="form-input" placeholder="Sujet de votre message" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="form-message" class="form-label">Message</label>
+                            <textarea id="form-message" class="form-input" placeholder="Votre message..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary"><i class="fa-solid fa-paper-plane"></i> Envoyer le message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --- SECTION DOUBLE CTA : WHATSAPP & EMAIL --- -->
+    <section id="cta-contact" class="dual-cta-section">
+        <div class="container">
+            <p class="dual-cta-headline reveal">Choisissez votre moyen de contact préféré</p>
+            <div class="dual-cta-grid reveal">
+
+                <!-- CTA WhatsApp -->
+                <div class="cta-card cta-whatsapp">
+                    <div class="cta-card-icon">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                    <div class="cta-card-body">
+                        <h3>Réponse rapide</h3>
+                        <p>Discutez directement avec moi sur WhatsApp. Je suis réactif et disponible pour répondre à toutes vos questions.</p>
+                        <a 
+                            href="https://wa.me/224611390765?text=Bonjour%20Kevin%2C%20j%27ai%20visit%C3%A9%20votre%20portfolio%20et%20je%20souhaite%20vous%20contacter." 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            class="cta-card-btn cta-btn-whatsapp"
+                            id="whatsapp-cta-main-btn"
+                        >
+                            <i class="fa-brands fa-whatsapp"></i>
+                            Contacter sur WhatsApp
+                        </a>
+                        <span class="cta-card-info"><i class="fa-solid fa-bolt"></i> Réponse sous quelques minutes</span>
+                    </div>
+                </div>
+
+<!-- CTA Email -->
+                <div class="cta-card cta-email">
+                    <div class="cta-card-icon gmail-card-icon-wrap">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" alt="Gmail" class="gmail-brand-icon">
+                    </div>
+                    <div class="cta-card-body">
+                        <h3>Message détaillé</h3>
+                        <p>Préférez-vous l'email ? Envoyez-moi un message structuré à l'adresse ci-dessous. Je vous réponds sous 24h.</p>
+                        <a 
+                            href="https://mail.google.com/mail/?view=cm&fs=1&to=kevinkandet05@gmail.com&su=Contact%20depuis%20votre%20portfolio&body=Bonjour%20Kevin%2C%0A%0AJ%27ai%20visit%C3%A9%20votre%20portfolio%20et%20je%20souhaite%20vous%20contacter%20pour%20%3A%0A%0A..."
+                            target="_blank"
+                            rel="noopener noreferrer"s
+                            class="cta-card-btn cta-btn-email"
+                            id="email-cta-main-btn"
+                        >
+                            <i class="fa-solid fa-paper-plane"></i>
+                            Envoyer un Email
+                        </a>
+                        <span class="cta-card-info"><i class="fa-solid fa-clock"></i> Réponse garantie sous 24h</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- --- FOOTER --- -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-logo">Étudiant en Électronique · Développeur Web Full Stack Junior · Porteur du projet KHARAN</div>
+            <ul class="footer-links">
+                <li><a href="#home" class="footer-link">Accueil</a></li>
+                <li><a href="#about" class="footer-link">À propos</a></li>
+                <li><a href="#projects" class="footer-link">Projets</a></li>
+                <li><a href="#candidature" class="footer-link">Candidature</a></li>
+                <li><a href="#contact" class="footer-link">Contact</a></li>
+            </ul>
+            <p class="copyright">&copy; 2026 Kevin Kandet Bomboh Bangoura. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <!-- --- MODAL VISIONNEUSE PDF --- -->
+    <div class="modal" id="pdf-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title" id="pdf-modal-title">Visualisation de Document</h3>
+                <button class="modal-close" onclick="closePdfModal()"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="modal-body">
+                <iframe src="" class="pdf-iframe" id="pdf-frame" title="Aperçu PDF"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- --- MODAL DETAILS PROJET --- -->
+    <div class="modal" id="project-modal">
+        <div class="modal-content" style="max-height: 80vh; overflow-y: auto;">
+            <div class="modal-header">
+                <h3 class="modal-title" id="project-modal-title">Détails du Projet</h3>
+                <button class="modal-close" onclick="closeProjectModal()"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="modal-body" style="background-color: var(--bg-secondary); padding: 2rem;" id="project-modal-body">
+                <!-- Injecté dynamiquement en JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Bouton WhatsApp Flottant -->
+    <a 
+        href="https://wa.me/224611390765?text=Bonjour%20Kevin%2C%20j%27ai%20visit%C3%A9%20votre%20portfolio%20et%20je%20souhaite%20vous%20contacter." 
+        target="_blank" 
+        rel="noopener noreferrer"
+        class="whatsapp-float-btn"
+        id="whatsapp-float"
+        aria-label="Contacter sur WhatsApp"
+        title="Contacter Kevin sur WhatsApp"
+    >
+        <i class="fa-brands fa-whatsapp"></i>
+        <span class="whatsapp-float-tooltip">Chattez avec moi !</span>
+    </a>
+
+<!-- Bouton Gmail Flottant -->
+<a 
+    href="https://mail.google.com/mail/?view=cm&fs=1&to=kevinkandet05@gmail.com&su=Contact%20depuis%20votre%20portfolio&body=Bonjour%20Kevin%2C%0A%0AJ%27ai%20visit%C3%A9%20votre%20portfolio%20et%20je%20souhaite%20vous%20contacter%20pour%20%3A%0A%0A..." 
+    target="_blank" 
+    rel="noopener noreferrer"   
+    class="gmail-float-btn"
+    id="gmail-float"
+    aria-label="Contacter sur Gmail"
+    title="Contacter Kevin sur Gmail"
+>
+    <!-- Remplacement par le logo officiel de Gmail -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" alt="Gmail" class="gmail-float-icon">
+    <span class="gmail-float-tooltip">Envoyer un message !</span>
+</a>
+
+    <!-- Script Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
